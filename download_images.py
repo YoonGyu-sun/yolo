@@ -8,8 +8,8 @@ response = simp.simple_image_download
 
 # Next you can use response to activate methods 
 
-keyword = ["jonny depp jack", "jack sparrow"] # 키워드를 리스트로 작성
+keyword = ["duck"] # 키워드를 리스트로 작성
 
 # 작성된 키워드들을 각각 50개씩 다운로드
 for kw in keyword:
-    response().download(kw, 50)
+    response().download(kw, 30)
